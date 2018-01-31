@@ -30,5 +30,5 @@ def combine_two_arrays(arr1, arr2)
 
 end
 
-
+# Example on an unsorted array
 print merge_sort([4,14,3,1,61,5,2,10,9,4,6,])

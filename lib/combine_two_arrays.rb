@@ -18,23 +18,6 @@ def combine_two_arrays(arr1, arr2)
 
 end
 
-# def merge_two_arrays(arr1, arr2)
-#   result = []
-#   i = 0
-#   j = 0
-#   5.times do
-#     if arr1[i] >= arr2[j]
-#         result << arr[i]
-#         i+=1
-#     else
-#       result << arr2[j]
-#       j+=1
-#     end
-#   end
-#   result
-# end
-#
-#
-
+# Example uses
 print combine_two_arrays([1,4,6], [2,3,8])
 print combine_two_arrays([1,4,6,10,90,103], [2,3,8,45,101])

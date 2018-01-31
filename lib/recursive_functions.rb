@@ -53,29 +53,3 @@ def integer_to_roman_numeral(roman_mapping, integer, result=[])
   end
   result
 end
-
-# def integer_to_roman(roman_mapping, number, result = "")
-#   return result if number == 0
-#   roman_mapping.keys.each do |divisor|
-#     quotient, modulus = number.divmod(divisor)
-#     result << roman_mapping[divisor] * quotient
-#     return integer_to_roman(roman_mapping, modulus, result) if quotient > 0
-#   end
-# end
-#
-
-
-# puts valid_palindrome?("wow")
-# puts valid_palindrome?("nope")
-# puts valid_palindrome?("redivider")
-
-#print find_factorial(10)
-
-#print bottles_of_beer(5)
-
-#print find_fib(10)
-
-#print flatten_array([1, [[1], [2, 3]], [4, 5, 6
-
-#print integer_to_roman_numeral(roman_mapping, 15)
-print integer_to_roman(roman_mapping, 12)
